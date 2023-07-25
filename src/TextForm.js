@@ -64,11 +64,11 @@ const extractEmails = () => {
           rows="9"
         ></textarea>
       </div>
-      <button className="btn btn-primary mx-1" onClick={handleUpperClick}>Convert to Uppercase</button>
-      <button className="btn btn-primary mx-1" onClick={handleLowerClick}>Convert to Lowercase</button>
-      <button className="btn btn-primary mx-1" onClick={handleClearClick}>Clear Text</button>
-      <button className="btn btn-primary mx-1" onClick={handleCopyClick}>Copy to Clipboard</button>
-      <button className="btn btn-primary mx-1" onClick={handleRemoveExtraSpaces}>Remove Extra Spaces</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleUpperClick}>Convert to Uppercase</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleLowerClick}>Convert to Lowercase</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>Clear Text</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleCopyClick}>Copy to Clipboard</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleRemoveExtraSpaces}>Remove Extra Spaces</button>
       
     </div>
     <div className="container" style={{color:props.mode==='dark'?'white':'black'}}>
